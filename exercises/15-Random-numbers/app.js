@@ -2,9 +2,9 @@
 
 function getRandomInt()
 {
-	var randomNumber = Math.random();
+    var randomNumber = math.floor(Math.random()* 10) + 1;
 	return randomNumber;
 }
 
 
-console.log(getRandomInt());
+console.log(randomNumber());
